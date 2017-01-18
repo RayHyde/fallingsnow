@@ -1,0 +1,77 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background: #0c0c38;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjMGMzOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxOTE5NzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #0c0c38 0%, #191970 100%);
+	background: -webkit-linear-gradient(top,  #0c0c38 0%,#191970 100%);
+	background: linear-gradient(to bottom,  #0c0c38 0%,#191970 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c0c38', endColorstr='#191970',GradientType=0 );
+}
+a {
+	color: cyan;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.globe-wrap {
+	width: 600px;
+	height: 753px;
+	position: relative;
+	margin: 20px auto 0;
+}
+.globe {
+	width: 600px;
+	height: 753px;
+	position: absolute;
+	background: url(../img/empty-snowglobe.png) no-repeat 0 0;
+}
+#snowman {
+	position: absolute;
+	width: 135px;
+	height: 250px;
+	background: url(../img/snowman.png) no-repeat 0 0;
+	left: 210px;
+	top: 240px;
+}
+.window-wrap {
+	width: 477px;
+	height: 605px;
+	margin: 0 auto;
+	position: relative;
+}
+.window-wrap .window {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../img/window.png) 0 0 no-repeat;
+}
+#snow {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	width: 580px;
+	height: 560px;
+	overflow: hidden;
+	left: 7px;
+	top: 5px;
+	z-index: 1;
+}
+h1, section  {
+	margin: 0 auto;
+	max-width: 600px;
+
+}
