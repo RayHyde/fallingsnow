@@ -91,7 +91,7 @@ a.download:hover {
 }
 
 #explain {
-  background: #591F1E url("http://rayhyde.nl/playground/img/playground.png") no-repeat scroll 98% bottom / 150px auto;
+  background: #591F1E url("../img/playground.png") no-repeat scroll 98% bottom / 150px auto;
   border-radius: 10px;
   color: #fff;
   padding: 20px;
